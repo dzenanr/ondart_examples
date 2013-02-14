@@ -12,7 +12,7 @@ String fibonacciIteration(int t) {
 }
 
 main() {
-  int count = 14;
+  int count = 12;
   String sequence = 
       fibonacciIteration(count);
   print('Fibonacci with iteration: '
