@@ -3,9 +3,12 @@ github.txt for ondart_examples
 GitHub, Git
 
 https://github.com/
+http://lifehacker.com/5983680/how-the-heck-do-i-use-github
 http://www.codeschool.com/courses/try-git
 http://git-scm.com/videos
 http://marklodato.github.com/visual-git-guide/index-en.html
+http://www.vogella.com/articles/Git/article.html
+http://gitref.org/
 
 Education
 
