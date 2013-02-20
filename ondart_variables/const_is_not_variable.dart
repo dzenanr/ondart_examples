@@ -1,6 +1,6 @@
 main() {
   const question = "How are you?";
-  question = "Not bad!";
+  question = "Not bad!"; 
   print(question);
 }
 

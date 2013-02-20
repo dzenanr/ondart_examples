@@ -1,0 +1,14 @@
+ondart_expressions
+  unhandled_exception
+  
+ondart_variables
+  const_is_not_variable
+  double_is_not_int
+  double_is_not_string
+  int_is_not_double
+  no_such_method
+  string_concatenation
+  subtype_exception
+  type_exception
+
+11 warnings, 6 infos
