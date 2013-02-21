@@ -1,6 +1,7 @@
-main() {
-  var medals = {'gold': null,
-                'silver': null};
-  print(medals['bronze']);
+void main() {
+  var dict = {'computer': 'ordinateur',
+              //null: 'clavier', // uncomment
+              'mouse': 'souris'};
+  print(dict);
 }
 
