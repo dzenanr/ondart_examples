@@ -1,6 +1,9 @@
 Map<String, int> letterFrequency(String text) {
-  String textWoutSpaces = text.replaceAll('\n', '').
-      replaceAll(' ', '').replaceAll('.', '');
+  //String textWoutSpaces = text.replaceAll('\n', '').replaceAll(' ', '').replaceAll('.', '');
+  // \w : word characters (letters, digits, and underscores)
+  // \W : negation of \w
+  String textWoutSpaces =
+      text.replaceAll(new RegExp(r'\W+'), '');
   List charList = textWoutSpaces.split('');
   //print(charList);
   charList.sort((m,n) => m.compareTo(n));
@@ -13,11 +16,10 @@ Map<String, int> letterFrequency(String text) {
 
 void main() {
   var text = '''
-A warning does not halt execution. 
-It tells you a potential problem has been detected. 
-The program will still be compiled and executed. 
+A warning does not halt execution.
+It tells you a potential problem has been detected.
+The program will still be compiled and executed!
 ''';
   print(letterFrequency(text));
 }
-
 

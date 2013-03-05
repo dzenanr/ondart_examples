@@ -1,4 +1,4 @@
-webLanguage([name='Dart']) {
+webLanguage({name: 'Dart'}) {
   return name;
 }
 

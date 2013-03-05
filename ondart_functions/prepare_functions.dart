@@ -3,12 +3,13 @@ String prepare(something) {
 }
 
 String prepareTogether(something, {together}) {
-  if (together == null) return 'Prepare $something.';
-  else return 'Prepare $something with $together.';
-} 
+  if (together == null) { return 'Prepare $something.';
+  } else { return 'Prepare $something with $together.';
+  }
+}
 
-String prepareForSomeone(something, 
-                         [forSomeone='your partner']) {
+String prepareForSomeone(something,
+                         {forSomeone: 'your partner'}) {
   return 'Prepare $something for $forSomeone.';
 }
 

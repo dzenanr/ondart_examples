@@ -1,4 +1,4 @@
-hi(msg, from, to) => 
+hi(msg, from, to) =>
     '$msg from $from to $to';
 
 main() {

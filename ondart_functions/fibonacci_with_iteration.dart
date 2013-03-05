@@ -4,7 +4,7 @@ String fibonacciIteration(int t) {
   while (n < t) {
     f = a + b;
     result = '$result $f';
-    a = b; 
+    a = b;
     b = f;
     n = n + 1;
   }
@@ -13,7 +13,7 @@ String fibonacciIteration(int t) {
 
 main() {
   int count = 12;
-  String sequence = 
+  String sequence =
       fibonacciIteration(count);
   print('Fibonacci with iteration: '
         '${count + 1} numbers sequence');

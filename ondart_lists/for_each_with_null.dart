@@ -3,7 +3,7 @@ main() {
   var s = '';
   list.forEach(
       // if break used instead of null then error
-      (e) => s.length <= 16 ? s = '${s}${e} ' : null); 
+      (e) => s.length <= 16 ? s = '${s}${e} ' : null);
   print(s);
 }
 

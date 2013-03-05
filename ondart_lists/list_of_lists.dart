@@ -1,7 +1,7 @@
 List cells(int length) {
-  var cells = new List(length);
+  var cells = new List.fixedLength(length);
   for (var i = 0; i < length; i++) {
-    cells[i] = new List(length);
+    cells[i] = new List.fixedLength(length);
   }
   return cells;
 }

@@ -4,7 +4,7 @@ int fibonacciRecursion(int t) {
   } else if (t == 1) {
     return 1;
   } else {
-    return fibonacciRecursion(t-1) + 
+    return fibonacciRecursion(t-1) +
         fibonacciRecursion(t-2);
   }
 }

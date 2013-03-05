@@ -1,4 +1,4 @@
-String hi(String msg, [String from, String to]) => 
+String hi(String msg, [String from, String to]) =>
     '$msg from $from to $to';
 
 main() {
