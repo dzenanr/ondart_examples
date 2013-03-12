@@ -1,6 +1,8 @@
 import 'dart:html';
 
-// based on: http://www.html5canvastutorials.com/
+// based on: 
+// http://www.html5canvastutorials.com/
+// http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/
 
 wrapText(context, text, x, y, maxWidth, lineHeight) {
   var words = text.split(" ");
