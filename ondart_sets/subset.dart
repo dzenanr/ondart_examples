@@ -7,8 +7,8 @@ main() {
   var text2Chars = text2.split('');
   set1.addAll(text1Chars);
   set2.addAll(text2Chars);
-  assert(set2.isSubsetOf(set1));
-  assert(!set1.isSubsetOf(set2));
-  assert(set2.isSubsetOf(set2));
+  assert(set1.containsAll(set2));
+  assert(!set2.containsAll(set1));
+  assert(set2.containsAll(set2));
 }
 

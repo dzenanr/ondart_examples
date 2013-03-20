@@ -10,7 +10,7 @@ void main() {
   ImageElement spaceShip = document.query('#space_ship');
 
   // Get the CanvasPixelArray from the given coordinates and dimensions.
-  var imgd = context.getImageData(spaceShip.offsetLeft, spaceShip.offsetTop, spaceShip.width, spaceShip.height);
+  var imgd = context.getImageData(spaceShip.offset.left, spaceShip.offset.top, spaceShip.width, spaceShip.height);
   var pix = imgd.data;
   var n = 1;
   // Loop over each pixel and invert the color.
