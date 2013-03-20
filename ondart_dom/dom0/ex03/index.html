@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DOM Examples in Dart</title>
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/page.css" />
+    <link rel="stylesheet" href="css/section.css" />
+  </head>
+  <body>
+    <header class="page-title">DOM Example</header>
+
+    <section id="notes">
+      <header id="notes-title" class="section-title">
+        Notes
+      </header>
+      <p>
+        Number of notes:
+        <label id="notes-total">0</label>
+      </p>
+      <section id="created-notes"></section>
+    </section>
+
+    <script type="application/dart" src="example.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

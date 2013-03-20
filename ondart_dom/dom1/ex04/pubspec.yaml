@@ -1,0 +1,8 @@
+name: on_dart_course_examples
+author: Dzenan Ridjanovic <dzenanr@gmail.com>
+homepage: http://ondart.me/
+version: 0.0.1
+description: >
+  On Dart course examples.
+dependencies:
+  browser: any
