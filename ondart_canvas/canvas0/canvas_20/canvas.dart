@@ -1,6 +1,6 @@
 import 'dart:html';
 
-// based on: 
+// based on:
 // http://www.html5canvastutorials.com/
 // http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/
 
@@ -14,7 +14,7 @@ void main() {
 
   ImageElement spaceShip = document.query('#space_ship');
   // context.drawImage(spaceShip, 20, 50);
-  context.drawImageAtScale(spaceShip, 
+  context.drawImageToRect(spaceShip,
       new Rect(20, 50, 720, 320));
 }
 
