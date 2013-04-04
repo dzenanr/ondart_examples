@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:html';
 
+// http://www.latlong.net/Show-Latitude-Longitude.html
+
 ParagraphElement geolocation;
 ButtonElement geolocationButton;
 
