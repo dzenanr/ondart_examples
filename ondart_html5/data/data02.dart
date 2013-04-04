@@ -1,7 +1,8 @@
 import 'dart:html';
 
 void main() {
-  var value = query("#node").dataset['used'];
+  var node = query("#node");
+  var value = node.dataset['used'];
   print(value);
 }
 

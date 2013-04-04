@@ -15,25 +15,25 @@
     <style>
       input {
         display: block;
-        border: 1px solid #ccc;
+        border: 1px solid #cccccc;
       }
 
       :invalid {
-        border-color: #DB729C;
+        border-color: #db729c;
         -webkit-box-shadow: 0 0 5px rgba(27, 0, 97, .5);
       }
 
       :required {
-        border-color: #1BE032;
+        border-color: #1be032;
         -webkit-box-shadow: 0 0 5px rgba(57, 237, 78, .5);
       }
     </style>
 
-    <form name="myForm" >
-      Enter Your Name: <input type="text" name="myName" required >
+    <form name="form" >
+      Enter Your Name: <input type="text" name="name" required >
       Enter Your Phone Number:
-      <input type="tel" name="myPhone" pattern="\d\d\d-\d\d\d-\d\d\d\d" />
-      Enter Your Email: <input type="email" name="myEmail" />
+      <input type="tel" name="phone" pattern="\d\d\d-\d\d\d-\d\d\d\d" />
+      Enter Your Email: <input type="email" name="email" />
       <input type="submit" />
     </form>
   </body>
