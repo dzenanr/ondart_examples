@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+  
+</null>
+<html>
+  <head>
+    <title>form17</title>
+  </head>
+
+  <body>
+    <form name="myForm">
+      <input type="number" value="5" />
+      <input type="submit" />
+    </form>
+
+    <style>
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+  </body>
+</html>

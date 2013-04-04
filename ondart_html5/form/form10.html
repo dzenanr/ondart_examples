@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+
+<html>
+  <head>
+    <title>form10</title>
+  </head>
+
+  <body>
+    <style>
+      input {
+        display: block;
+        border: 1px solid #ccc;
+      }
+
+      :invalid {
+        border-color: #DB729C;
+        -webkit-box-shadow: 0 0 5px rgba(27, 0, 97, .5);
+      }
+
+      :required {
+        border-color: #1BE032;
+        -webkit-box-shadow: 0 0 5px rgba(57, 237, 78, .5);
+      }
+    </style>
+
+    <form name="myForm" >
+      Enter Your Name: <input type="text" name="myName" required >
+      Enter Your Phone Number:
+      <input type="tel" name="myPhone" pattern="\d\d\d-\d\d\d-\d\d\d\d" />
+      Enter Your Email: <input type="email" name="myEmail" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

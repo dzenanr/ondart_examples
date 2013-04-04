@@ -1,0 +1,4 @@
+name: geolocation
+description: html5 geolocation
+dependencies:
+  browser: any

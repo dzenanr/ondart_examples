@@ -1,0 +1,4 @@
+name: history
+description: HTML5 history
+dependencies:
+  browser: any

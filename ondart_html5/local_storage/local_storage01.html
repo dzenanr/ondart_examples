@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+
+<html>
+  <head>
+    <title>local_storage01</title>
+  </head>
+
+  <body>
+    <div contenteditable="true" id="editable">
+      <p>
+        This is a really great book.
+        I am so glad I am reading it because:
+      </p>
+      <ul>
+        <li>it is witty</li>
+        <li>i am now well informed about HTML5</li>
+        <li>the authors are all around great guys</li>
+      </ul>
+    </div>
+
+    <script type="application/dart" src="local_storage01.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

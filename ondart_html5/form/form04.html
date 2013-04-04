@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+
+<html>
+  <head>
+    <title>form01</title>
+  </head>
+
+  <body>
+    <form autocomplete="on">
+      First name:<input type="text" name="fname" /><br />
+      Last name: <input type="text" name="lname" /><br />
+      E-mail: <input type="email" name="email" /><br />
+      Favorite Animal: <input type="text" name="animal" list="animals" /><br />
+      <datalist id="animals">
+        <option value="Dog">
+        <option value="Dolphin">
+        <option value="Duck">
+        <option value="Cat">
+        <option value="Bird">
+        <option value="mouse">
+      </datalist>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
