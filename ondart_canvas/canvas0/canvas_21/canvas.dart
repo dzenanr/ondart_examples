@@ -1,6 +1,6 @@
 import 'dart:html';
 
-// based on: 
+// based on:
 // http://www.html5canvastutorials.com/
 // http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/
 
@@ -25,9 +25,9 @@ void main() {
   var destX = canvas.width / 2 - destWidth / 2;
   var destY = canvas.height / 2 - destHeight / 2;
   var destRect = new Rect(destX, destY, destWidth, destHeight);
-  
+
   // context.drawImage(spaceShip, sourceX, sourceY);
-  context.drawImageAtScale(spaceShip, destRect, sourceRect:sourceRect);
+  context.drawImageToRect(spaceShip, destRect, sourceRect:sourceRect);
 }
 
 

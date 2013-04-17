@@ -1,22 +1,2 @@
-ondart_expressions
-  unhandled_exception
-  
-ondart_variables
-  const_is_not_variable
-  double_is_not_int
-  double_is_not_string
-  int_is_not_double
-  no_such_method
-  string_concatenation
-  subtype_exception
-  type_exception
-
-ondart_maps
-  unique_keys
-  unhandled_exception
-  no_iterator
-  
-ondart_sets
-  no_such_method
-  
-12 warnings, 13 infos
+ 
+no warnings
