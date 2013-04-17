@@ -1,0 +1,8 @@
+HTML5 Links
+
+https://github.com/html5hacks/html5hacks
+http://html5demos.com/
+http://html5demos.com/history
+http://en.wikipedia.org/wiki/Microdata_(HTML)
+http://www.latlong.net/Show-Latitude-Longitude.html
+https://developer.mozilla.org/en-US/docs/DOM/Manipulating_the_browser_history

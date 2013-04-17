@@ -1,0 +1,4 @@
+name: local_storage
+description: html5 local storage
+dependencies:
+  browser: any

@@ -1,0 +1,4 @@
+name: edit
+description: edit page
+dependencies:
+  browser: any

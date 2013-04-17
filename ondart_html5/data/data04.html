@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+
+// http://en.wikipedia.org/wiki/Microdata_(HTML)
+
+<html>
+  <head>
+    <title>data04</title>
+  </head>
+
+  <body>
+    <h1>Contacts</h1>
+    <ul id='contacts'>
+      <li itemscope>
+        <ul>
+          <li>Name: <span itemprop="name">Fred</span></li>
+          <li>Phone: <span itemprop="telephone">210-555-5555</span></li>
+          <li>Email: <span itemprop="email">thebuffalo@rockandstone.com</span>
+          </li>
+        </ul>
+      </li>
+      <li itemscope>
+        <ul>
+          <li>Name: <span itemprop="name">Wilma</span></li>
+          <li>Phone: <span itemprop="telephone">210-555-7777</span></li>
+          <li>Email: <span itemprop="email">thewife@rockandstone.com</span>
+          </li>
+        </ul>
+      </li>
+      <li itemscope>
+        <ul>
+          <li>Name: <span itemprop="name">Betty</span></li>
+          <li>Phone: <span itemprop="telephone">210-555-8888</span></li>
+          <li>Email: <span itemprop="email">theneighbour@rockandstone.com</span>
+          </li>
+        </ul>
+      </li>
+      <li itemscope>
+        <ul>
+          <li>Name: <span itemprop="name">Barny</span></li>
+          <li>Phone: <span itemprop="telephone">210-555-0000</span></li>
+          <li>Email: <span itemprop="email">thebestfriend@rockandstone.com</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <script type="application/dart" src="data04.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

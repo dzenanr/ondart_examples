@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+
+<html>
+  <head>
+    <title>event04</title>
+  </head>
+
+  <body>
+    <form name="form">
+      Select number:
+      <input type="number" id="quantity"
+             min="1" max="5"/>
+      <label id="msg"/><br/>
+      <input type="submit" name="submit"/>
+    </form>
+
+    <script type="application/dart" src="event04.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

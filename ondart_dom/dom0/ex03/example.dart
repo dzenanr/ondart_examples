@@ -28,7 +28,7 @@ class Notes {
 
   String noteList(List noteList) {
     var ns = '';
-    ns = ''' 
+    ns = '''
       ${ns}<ul class="target">
     ''';
     for (var note in noteList) {

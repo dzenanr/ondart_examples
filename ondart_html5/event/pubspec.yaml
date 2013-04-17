@@ -1,0 +1,4 @@
+name: event
+description: html5 event
+dependencies:
+  browser: any

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  
+<!-- Based on:
+  HTML5 Hacks by Jesse Cravens and Jeff Burtoft (O’Reilly).
+  Copyright 2013 Jesse Cravens and Jeff Burtoft, 978-1-449-33499-4.
+  http://shop.oreilly.com/product/0636920026273.do
+-->
+
+<html>
+  <head>
+    <title>edit03</title>
+  </head>
+
+  <body>
+    <div>
+      <p>
+        use this button to make your entire document editable or turn it off:
+      </p>
+      <p><button id="make-edit">toggle design mode</button></p>
+      <p>use this button to show the markup</p>
+      <p>
+        <button id="show-markup">show markup</button>
+        <button id="clear-markup">clear markup</button>
+      </p>
+      <p><textarea id="export-content" rows="36" cols="68"></textarea></p>
+    </div>
+
+    <script type="application/dart" src="edit03.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
