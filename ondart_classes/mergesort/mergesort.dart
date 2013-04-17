@@ -1,32 +1,30 @@
-import 'package:unittest/unittest.dart';
-
 // adapted from http://chmcguir.wordpress.com/2012/11/09/dart-mergesort/
 
 class MergeSorter {
   int length;
-  List unsorted ;
+  List list ;
   List _placeholder;
 
   List sort(List values) {
-    this.unsorted = values;
+    this.list = values;
     length = values.length.toInt();
     _placeholder = new List(length);
-    _mergeSort(0, length-1);
-    return unsorted;
+    _mergesort(0, length-1);
+    return list;
   }
 
-  void _mergeSort(num low, num high) {
+  void _mergesort(num low, num high) {
     if(low < high) {
       var middle = ((low+high)/2).toInt();
-      _mergeSort(low,middle);
-      _mergeSort((middle+1), high);
+      _mergesort(low,middle);
+      _mergesort((middle+1), high);
       _merge(low,middle,high);
     }
   }
 
   void _merge(num low, num middle, num high) {
     for (int i = low; i <= high; i++){
-      _placeholder[i] = unsorted[i];
+      _placeholder[i] = list[i];
     }
 
     num i = low;
@@ -35,17 +33,17 @@ class MergeSorter {
 
     while (i <= middle && j <= high) {
       if (_placeholder[i] <= _placeholder[j]) {
-        unsorted[k] = _placeholder[i];
+        list[k] = _placeholder[i];
         i ++;
       } else {
-        unsorted[k] = _placeholder[j];
+        list[k] = _placeholder[j];
         j++;
       }
       k++;
     }
 
     while (i <= middle) {
-      unsorted[k] = _placeholder[i];
+      list[k] = _placeholder[i];
       k++;
       i++;
     }
@@ -54,10 +52,15 @@ class MergeSorter {
 
 void main() {
   var sorter = new MergeSorter();
-  test('Merge_Worst', () =>
-      expect(sorter.sort([5,4,3,2,1]), orderedEquals([1,2,3,4,5])));
-  test('Merge_Best', () =>
-      expect(sorter.sort([1,2,3,4,5]), orderedEquals([1,2,3,4,5])));
+  var list = [2, 33, 11, 4, 7, 77, 6, 0];
+  var list_merge_worst = [77, 33, 11, 7, 6, 4, 2, 0];
+  var list_merge_best = [0, 2, 4, 6, 7, 11, 33, 77];
+  sorter.sort(list);
+  print('merge: ${sorter.list}');
+  sorter.sort(list_merge_worst);
+  print('merge worst: ${sorter.list}');
+  sorter.sort(list_merge_best);
+  print('merge best: ${sorter.list}');
 }
 
 

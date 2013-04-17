@@ -4,7 +4,9 @@ main() {
   var bcd = new Set();
   bcd.addAll(['b', 'c', 'd']);
   var abcd = new Set.from(abc);
-  abcd.union(bcd);
+  abcd.addAll(bcd);
+  assert(abcd.length == 4);
+  assert(abcd.containsAll(['a', 'b', 'c', 'd']));
   print(abcd);
 }
 
