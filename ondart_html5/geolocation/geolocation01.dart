@@ -22,7 +22,7 @@ void showLocation(Geoposition geoposition) {
   geolocation.innerHtml = 'latitude: ${latitude}; longitude: ${longitude}';
 }
 
-void showError(AsyncError error) {
+void showError(Error error) {
   geolocation.innerHtml = 'geolocation error';
 }
 
