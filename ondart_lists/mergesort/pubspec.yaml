@@ -1,8 +1,0 @@
-name: mergesort
-homepage: http://chmcguir.wordpress.com/2012/11/09/dart-mergesort/
-dependencies:
-  unittest: any
-
-#dependencies:
-#  js: any
-#  unittest: any
