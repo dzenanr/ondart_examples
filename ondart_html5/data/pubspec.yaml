@@ -1,0 +1,4 @@
+name: data
+description: data
+dependencies:
+  browser: any
