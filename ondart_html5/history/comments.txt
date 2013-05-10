@@ -1,0 +1,21 @@
+Problem
+
+history01.html does not work in Dartium, however it does work when Run as JavaScript.
+
+part of dart.dom.html;
+@ DomName("History") class History extends NativeFieldWrapperClass1 implements HistoryBase {
+  static bool get supportsState => true;
+  History.internal();
+  @ DomName("History.length") @ DocsEditable int get length native "History_length_Getter";
+  @ DomName("History.state") @ DocsEditable dynamic get state native "History_state_Getter";
+  @ DomName("History.back") @ DocsEditable void back() native "History_back_Callback";
+  @ DomName("History.forward") @ DocsEditable void forward() native "History_forward_Callback";
+  @ DomName("History.go") @ DocsEditable void go(int distance) native "History_go_Callback";
+  @ DomName("History.pushState") @ DocsEditable @ SupportedBrowser(SupportedBrowser.CHROME) @ SupportedBrowser(SupportedBrowser.FIREFOX) @ SupportedBrowser(SupportedBrowser.IE, "10") @ SupportedBrowser(SupportedBrowser.SAFARI) void pushState(Object data, String title,[String url]) native "History_pushState_Callback";
+  @ DomName("History.replaceState") @ DocsEditable @ SupportedBrowser(SupportedBrowser.CHROME) @ SupportedBrowser(SupportedBrowser.FIREFOX) @ SupportedBrowser(SupportedBrowser.IE, "10") @ SupportedBrowser(SupportedBrowser.SAFARI) void replaceState(Object data, String title,[String url]) native "History_replaceState_Callback";
+}
+
+
+exception "String expected" at @ DomName("History.replaceState")
+
+ 

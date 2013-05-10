@@ -1,0 +1,11 @@
+Problem
+
+geoloacation01.html does not work in Dartium; however it does work when Run as JavaScript.
+
+Uncaught Error: type 'PositionError' is not a subtype of type 'Error' of 'error'.
+Stack Trace:
+#0      showError.showError (http://127.0.0.1:3030/C:/Users/ridjanod/git/dart/educ/ondart_examples/ondart_html5/geolocation/geolocation01.dart:25:22)
+#1      _SubscribeFuture._sendError (dart:async/future_impl.dart:334:24)
+#2      _FutureImpl._setError (dart:async/future_impl.dart:192:26)
+#3      _CompleterImpl.completeError (dart:async/future_impl.dart:20:21)
+#4      Geolocation.getCurrentPosition.<anonymous closure> (file:///E:/b/build/slave/dartium-win-full-trunk/build/src/build/Release/obj/global_intermediate/webkit/bindings/dart/dart/html/Geolocation.dart:20:32)

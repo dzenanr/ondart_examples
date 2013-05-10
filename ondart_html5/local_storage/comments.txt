@@ -1,0 +1,3 @@
+Problem
+
+local_storage01.html does not work neither in Dartium nor in JavaScript (adding a new bullet point is nor saved);
