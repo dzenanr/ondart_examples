@@ -7,6 +7,9 @@ http://www.html5rocks.com/en/tutorials/webaudio/intro/
 https://www.scirra.com/blog/44/on-html5-audio-formats-aac-and-ogg
 http://www.html5audio.org/
 
+https://code.google.com/p/chromium/wiki/ChromiumBrowserVsGoogleChrome
+
 examples
 http://www.lunerouge.org/
+http://rpg.hamsterrepublic.com/ohrrpgce/Free_Sound_Effects
 
