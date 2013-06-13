@@ -1,8 +1,6 @@
-.buildlog
-.children
-.project
 packages
-*/*.lock
+*/.buildlog
+*/pubspec.lock
 *.js
 *.js.deps
 *.js.map
