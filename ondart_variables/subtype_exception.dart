@@ -1,5 +1,5 @@
 main() {
-  num x = "number";
-  print(x);
+  //num x = "number";
+  //print(x);
 }
 

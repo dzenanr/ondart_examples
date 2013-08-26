@@ -1,6 +1,7 @@
 main() {
   num pi = 3.14;
-  String pis = pi;
-  print('$pi $pis');
+  print('pi: $pi');
+  //String pis = pi;
+  //print('pis: $pis');
 }
 
