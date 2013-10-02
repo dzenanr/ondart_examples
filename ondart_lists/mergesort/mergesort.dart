@@ -32,18 +32,18 @@ List sort(List values) {
       }
     }
 
-    if(low < high) {
-      var middle = ((low+high)/2).toInt();
-      mergesort(low,middle);
-      mergesort((middle+1), high);
-      merge(low,middle,high);
+    if (low < high) {
+      var middle = (low + high) ~/2;
+      mergesort(low, middle);
+      mergesort((middle + 1), high);
+      merge(low, middle, high);
     }
   }
 
   unsorted = values;
   var length = values.length.toInt();
   placeholder = new List(length);
-  mergesort(0, length-1);
+  mergesort(0, length - 1);
   return unsorted;
 }
 
