@@ -7,8 +7,8 @@ ParagraphElement geolocation;
 ButtonElement geolocationButton;
 
 void main() {
-  geolocation = query('#geolocation');
-  geolocationButton = query('#get-geolocation')..onClick.listen(getLocation);
+  geolocation = querySelector('#geolocation');
+  geolocationButton = querySelector('#get-geolocation')..onClick.listen(getLocation);
 }
 
 void getLocation(Event event) {

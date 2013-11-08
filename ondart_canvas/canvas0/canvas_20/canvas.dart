@@ -9,13 +9,13 @@ import 'dart:html';
 // CanvasImageSource is one of ImageElement, VideoElement, or CanvasElement.
 
 void main() {
-  CanvasElement canvas = document.query('#canvas');
+  CanvasElement canvas = document.querySelector('#canvas');
   CanvasRenderingContext2D context = canvas.getContext('2d');
 
-  ImageElement spaceShip = document.query('#space_ship');
+  ImageElement spaceShip = document.querySelector('#space_ship');
   // context.drawImage(spaceShip, 20, 50);
   context.drawImageToRect(spaceShip,
-      new Rect(20, 50, 720, 320));
+      new Rectangle(20, 50, 720, 320));
 }
 
 

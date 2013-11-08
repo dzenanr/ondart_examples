@@ -4,10 +4,10 @@ import 'dart:html';
 
 void main() {
   // Get a reference to the canvas.
-  CanvasElement canvas = document.query('#canvas');
+  CanvasElement canvas = document.querySelector('#canvas');
   CanvasRenderingContext2D context = canvas.getContext('2d');
 
-  ImageElement spaceShip = document.query('#space_ship');
+  ImageElement spaceShip = document.querySelector('#space_ship');
 
   // Get the CanvasPixelArray from the given coordinates and dimensions.
   var imgd = context.getImageData(spaceShip.offset.left, spaceShip.offset.top, spaceShip.width, spaceShip.height);

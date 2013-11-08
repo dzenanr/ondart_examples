@@ -3,11 +3,11 @@ import 'dart:html';
 bool editable = false;
 
 void main() {
-  ButtonElement makeEditButton = query('#make-edit')..onClick.listen(makeEdit);
+  ButtonElement makeEditButton = querySelector('#make-edit')..onClick.listen(makeEdit);
   ButtonElement showMarkupButton =
-      query('#show-markup')..onClick.listen(showMarkup);
+      querySelector('#show-markup')..onClick.listen(showMarkup);
   ButtonElement clearMarkupButton =
-      query('#clear-markup')..onClick.listen(clearMarkup);
+      querySelector('#clear-markup')..onClick.listen(clearMarkup);
 }
 
 void makeEdit(Event event) {
@@ -19,10 +19,10 @@ void makeEdit(Event event) {
 
 void showMarkup(Event event) {
   String content = document.documentElement.outerHtml;
-  document.query('#export-content').innerHtml = content;
+  document.querySelector('#export-content').innerHtml = content;
 }
 
 void clearMarkup(Event event) {
-  document.query('#export-content').innerHtml = '';
+  document.querySelector('#export-content').innerHtml = '';
 }
 

@@ -15,7 +15,7 @@ class MergeSorter {
 
   void _mergesort(num low, num high) {
     if(low < high) {
-      var middle = ((low+high)/2).toInt();
+      var middle = (low+high)~/2;
       _mergesort(low,middle);
       _mergesort((middle+1), high);
       _merge(low,middle,high);

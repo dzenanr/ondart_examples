@@ -5,10 +5,10 @@ import 'dart:html';
 // http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/
 
 void main() {
-  CanvasElement canvas = document.query('#canvas');
+  CanvasElement canvas = document.querySelector('#canvas');
   CanvasRenderingContext2D context = canvas.getContext('2d');
 
-  ImageElement woodPattern = document.query('#wood_pattern');
+  ImageElement woodPattern = document.querySelector('#wood_pattern');
   var pattern = context.createPatternFromImage(woodPattern, 'repeat');
 
   context.rect(0, 0, canvas.width, canvas.height);

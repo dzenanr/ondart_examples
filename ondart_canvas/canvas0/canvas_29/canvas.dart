@@ -25,7 +25,7 @@ wrapText(context, text, x, y, maxWidth, lineHeight) {
 }
 
 void main() {
-  CanvasElement canvas = document.query('#canvas');
+  CanvasElement canvas = document.querySelector('#canvas');
   CanvasRenderingContext2D context = canvas.getContext('2d');
 
   var maxWidth = 400;

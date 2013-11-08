@@ -6,8 +6,8 @@ class Notes {
   int noteCount = 0;
 
   Notes() {
-    section = document.query('#notes');
-    total = document.query('#notes-total');
+    section = document.querySelector('#notes');
+    total = document.querySelector('#notes-total');
   }
 
   createNote() {

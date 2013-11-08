@@ -68,7 +68,7 @@ String table() {
 }
 
 main() {
-  document.query('#description').innerHtml = description();
-  document.query('#links').innerHtml = links();
-  document.query('#table').innerHtml = table();
+  document.querySelector('#description').innerHtml = description();
+  document.querySelector('#links').innerHtml = links();
+  document.querySelector('#table').innerHtml = table();
 }

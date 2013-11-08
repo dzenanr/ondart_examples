@@ -22,8 +22,8 @@ String links() {
 }
 
 main() {
-  document.query('#description').innerHtml =
+  document.querySelector('#description').innerHtml =
       description();
-  document.query('#links').innerHtml =
+  document.querySelector('#links').innerHtml =
       links();
 }

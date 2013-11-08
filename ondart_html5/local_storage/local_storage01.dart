@@ -3,7 +3,7 @@ import 'dart:html';
 DivElement div;
 
 void main() {
-  div = query('#editable')..onBlur.listen(save);
+  div = querySelector('#editable')..onBlur.listen(save);
   String userContent = window.localStorage['user-content'];
   if (userContent != null) {
     div.innerHtml = userContent;

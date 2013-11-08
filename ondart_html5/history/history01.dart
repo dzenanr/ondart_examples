@@ -5,7 +5,7 @@ import 'dart:html';
 Element step;
 
 void main() {
-  step = query("#step");
+  step = querySelector("#step");
   window.history.pushState('step a', 'a');
   window.history.pushState('step b', 'b');
   window.history.pushState('step c', 'c');

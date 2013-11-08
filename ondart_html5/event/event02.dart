@@ -1,7 +1,7 @@
 import 'dart:html';
 
 void main() {
-  query("#input").onInput.listen(log);
+  querySelector("#input").onInput.listen(log);
 }
 
 void log(Event event) {

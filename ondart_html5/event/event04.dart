@@ -4,10 +4,10 @@ InputElement input;
 LabelElement msg;
 
 void main() {
-  input = query('#quantity')..
+  input = querySelector('#quantity')..
       onInvalid.listen((event) {msg.text =
       'Number between 1 and 5: ${input.value}';});
-  msg = query('#msg');
+  msg = querySelector('#msg');
 }
 
 /*

@@ -4,8 +4,8 @@ InputElement input;
 LabelElement msg;
 
 void main() {
-  input = query('#input')..onInput.listen(repeat);
-  msg = query('#msg');
+  input = querySelector('#input')..onInput.listen(repeat);
+  msg = querySelector('#msg');
 }
 
 void repeat(Event event) {

@@ -49,10 +49,10 @@ String table() {
 }
 
 main() {
-  document.query('#description').innerHtml =
+  document.querySelector('#description').innerHtml =
       description();
-  document.query('#links').innerHtml =
+  document.querySelector('#links').innerHtml =
       links();
-  document.query('#table').innerHtml =
+  document.querySelector('#table').innerHtml =
       table();
 }

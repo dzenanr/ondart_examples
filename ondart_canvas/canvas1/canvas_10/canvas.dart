@@ -4,7 +4,7 @@ import 'dart:html';
 
 void main() {
   // Get a reference to the canvas.
-  CanvasElement canvas = document.query('#canvas');
+  CanvasElement canvas = document.querySelector('#canvas');
   CanvasRenderingContext2D context = canvas.getContext('2d');
 
   context.fillStyle    = '#0000ff'; // blue

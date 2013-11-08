@@ -1,8 +1,8 @@
 import 'dart:html';
 
 class Notes {
-  LabelElement total = document.query('#notes-total');
-  Element section = document.query('#created-notes');
+  LabelElement total = document.querySelector('#notes-total');
+  Element section = document.querySelector('#created-notes');
   int noteCount;
 
   Notes(this.noteCount) {

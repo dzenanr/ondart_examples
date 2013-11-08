@@ -6,7 +6,7 @@ int count = 0;
 DivElement result;
 
 void main() {
-  result = document.query('#result');
+  result = document.querySelector('#result');
   window.onLoad.listen(incrementCount);
 }
 

@@ -1,6 +1,6 @@
 import 'dart:html';
 
 main() {
-  document.query('#note').innerHtml =
+  document.querySelector('#note').innerHtml =
       "This text is a note.";
 }

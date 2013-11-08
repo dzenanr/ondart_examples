@@ -5,7 +5,7 @@ import 'dart:html';
 // http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/
 
 void main() {
-  CanvasElement canvas = document.query('#canvas');
+  CanvasElement canvas = document.querySelector('#canvas');
   CanvasRenderingContext2D context = canvas.getContext('2d');
 
   var x = canvas.width / 2;

@@ -1,8 +1,8 @@
 import 'dart:html';
 
 void main() {
-  var description = query("#description");
-  var list = query("#list");
+  var description = querySelector("#description");
+  var list = querySelector("#list");
   list.onClick.listen((e) {
     Element item = e.target;
     description.text =

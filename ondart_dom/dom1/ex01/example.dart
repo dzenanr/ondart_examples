@@ -1,7 +1,7 @@
 import 'dart:html';
 
 main() {
-  document.query('#links').innerHtml = '''
+  document.querySelector('#links').innerHtml = '''
     <ul>
       <li>
         <a href="http://www.dartlang.org/">Dart</a>
