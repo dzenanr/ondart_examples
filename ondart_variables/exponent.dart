@@ -3,6 +3,6 @@ main() {
   print(exp); // 142000.0 in Dart, 142000 in JS
   print(exp is num);
   print(exp is! int);
-  print(exp is double);
+  //print(exp is double);
 }
 

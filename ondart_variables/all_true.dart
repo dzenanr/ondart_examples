@@ -9,7 +9,7 @@ main() {
   print(x is num);
   print(pi is num);
   print(x is int);
-  print(pi is double);
+  //print(pi is double);
   //print(x is dynamic);
   //print(pi is dynamic);
   print(selected is bool);

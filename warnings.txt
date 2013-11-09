@@ -1,5 +1,4 @@
 
 ondart_variables
-  7 JS warnings
-
-some warnings hidden by comments
+  0 warnings
+  some warnings hidden by comments
