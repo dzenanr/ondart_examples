@@ -12,6 +12,6 @@ class Project {
 
 main() {
   var dartlero = new Project();
-  dartlero.name = 'Dartlero';
+  dartlero.name = 'dartlero';
   print(dartlero.description);
 }

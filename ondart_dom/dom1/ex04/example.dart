@@ -69,6 +69,11 @@ String table() {
 
 main() {
   document.querySelector('#description').innerHtml = description();
-  document.querySelector('#links').innerHtml = links();
+  document.querySelector('#links').setInnerHtml(
+      links(),
+      validator: new NodeValidatorBuilder()
+      ..allowHtml5()
+      ..allowElement('a', attributes: ['href'])
+  );
   document.querySelector('#table').innerHtml = table();
 }
