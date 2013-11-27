@@ -1,0 +1,3 @@
+Singleton
+
+http://stackoverflow.com/questions/12649573/how-do-you-build-a-singleton-in-dart/12649574#12649574
