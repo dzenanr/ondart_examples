@@ -12,6 +12,7 @@ void main() {
   ImageElement spaceShip = document.querySelector('#space_ship');
   // ...
   // to be done
+  // see: http://stackoverflow.com/questions/11599113/how-to-load-an-image-in-dart
 }
 
 
