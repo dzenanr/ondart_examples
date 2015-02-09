@@ -1,6 +1,6 @@
 main() {
   String firstName = 'Dzenan';
   String lastName = 'Ridjanovic';
-  print('${lastName}, ${firstName}');
+  print('$lastName, $firstName');
 }
 

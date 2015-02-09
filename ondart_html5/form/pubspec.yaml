@@ -1,0 +1,4 @@
+name: form
+description: html5 forms
+dependencies:
+  browser: any

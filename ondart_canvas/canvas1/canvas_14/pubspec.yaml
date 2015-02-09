@@ -3,7 +3,3 @@ description: canvas examples
 homepage: http://ondart.me/web_programming.md
 dependencies:
   browser: any
-
-#dependencies:
-#  js: any
-#  unittest: any

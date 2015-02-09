@@ -1,5 +1,21 @@
 Problem
 
+2015-02-06
+
+Exception: Uncaught Error: type 'PositionError' is not a subtype of type 'Error' of 'error'.
+Stack Trace:
+#0      showError (http://localhost:8080/geolocation01.dart:25:22)
+#1      _RootZone.runUnary (dart:async/zone.dart:1155)
+#2      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#3      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#4      _Future._completeError (dart:async/future_impl.dart:366)
+#5      _Future._asyncCompleteError.<anonymous closure> (dart:async/future_impl.dart:421)
+#6      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#7      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#8      _handleMutation (dart:html:41819)
+
+---------------------------------------------------------------------------------------------
+
 geoloacation01.html does not work in Dartium; however it does work when Run as JavaScript.
 
 Uncaught Error: type 'PositionError' is not a subtype of type 'Error' of 'error'.

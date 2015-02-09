@@ -1,6 +1,11 @@
-library inheritance;
+class Rectangle {
+  num width;
+  num height;
 
-part 'rectangle.dart';
+  Rectangle(this.width, this.height);
+}
+
+
 
 class Square extends Rectangle {
   num length;

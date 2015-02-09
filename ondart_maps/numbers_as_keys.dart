@@ -7,4 +7,3 @@ void main() {
   workWeek[5] = 'Friday';
   print(workWeek);
 }
-
