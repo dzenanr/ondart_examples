@@ -1,0 +1,25 @@
+/* section.css */
+
+/* ===[ begin ]=== */
+
+/*
+    Title:                   Section Design Style
+    Author:                  Dzenan Ridjanovic
+    Created:                 2006-09-03
+    Updated:                 2007-10-30
+*/
+
+  .section-title {
+      font-family: arial, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      color: #fffff0;
+      padding: 10px;
+      background: #003366;
+  }
+    
+	.center {
+		text-align: center;
+	}
+			
+/* ===[ end ]=== */
