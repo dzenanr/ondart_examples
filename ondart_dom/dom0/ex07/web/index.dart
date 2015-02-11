@@ -88,9 +88,9 @@ class Notes {
     for (var row in noteTable.children) {
       if (row is TableRowElement && r++ > 0) {
         for (var cell in row.children) {
-          if (cell is TableCellElement) {
+          //if (cell is TableCellElement) {
             notes = '${notes}${cell.text} ';
-          }
+          //}
         }
       }
     }
