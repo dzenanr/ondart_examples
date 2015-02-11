@@ -8,7 +8,7 @@ class Notes {
   Notes() {
     noteInput = document.querySelector('#note-input');
     noteInput.onChange.listen((e) {
-      addRow(noteInput.value);
+      addRowData(noteInput.value);
       noteInput.select();
     });
     noteTable = document.querySelector('#note-table');
@@ -16,19 +16,37 @@ class Notes {
     clearNotes.onClick.listen((e) {
       noteTable.children.clear();
       noteInput.value = '';
+      addTableCaption('Notes');
+      addColumnTitles();
     });    
-    //addCaption('Notes');
+    addTableCaption('Notes');
+    addColumnTitles();
   }
   
-  addCaption(String title) {
+  addTableCaption(String title) {
     var noteTableCaption = noteTable.createCaption();
     noteTableCaption.text = title;
     noteTable.caption = noteTableCaption;
   }
   
-  addRow(String note) {
-    var noteRow = new TableRowElement();
-    var noteCell = new TableCellElement();
+  addColumnTitles() {
+    //var row = new TableRowElement();
+    var row = new Element.tag('tr');   
+    noteTable.children.add(row);
+    addColumnTitle(row, 'Note');
+  }
+  
+  addColumnTitle(row, String title) {
+    var columnHeader = new Element.tag('th');
+    columnHeader.text = title; 
+    row.children.add(columnHeader);
+  }
+  
+  addRowData(String note) {
+    //var noteRow = new TableRowElement();
+    var noteRow = new Element.tag('tr');   
+    //var noteCell = new TableCellElement();
+    var noteCell = new Element.tag('td'); 
     noteCell.text = note;
     noteTable.children.add(noteRow);
     noteRow.children.add(noteCell);
