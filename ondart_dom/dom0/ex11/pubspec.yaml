@@ -1,0 +1,8 @@
+name: ondart
+version: 0.0.1
+author: Dzenan Ridjanovic <dzenanr@gmail.com>
+description: On Dart course examples.
+homepage: http://ondart.me/
+dependencies:
+  browser: any
+  dartlero: any
