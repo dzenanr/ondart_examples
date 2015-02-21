@@ -5,6 +5,9 @@ import 'dart:math';
 // http://www.html5canvastutorials.com/
 // http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/
 
+// http://stackoverflow.com/questions/10807230/what-exactly-is-a-canvas-path-and-what-is-the-use-of-ctx-closepath
+// http://stackoverflow.com/questions/22432036/do-i-have-to-have-the-content-beginpath-and-content-closepath
+
 void main() {
   // Get a reference to the canvas.
   CanvasElement canvas = document.querySelector('#canvas');

@@ -1,0 +1,10 @@
+Canvas
+
+http://chimera.labs.oreilly.com/books/1234000001654/pr01.html
+http://www.html5canvastutorials.com/
+http://tutorials.jenkov.com/html5-canvas/paths.html
+http://perfectionkills.com/
+http://rectangleworld.com/blog/
+http://www.dbp-consulting.com/tutorials/canvas/index.html
+http://www.codeproject.com/Articles/766162/Beginners-Guide-to-HTML-CSS-Coding-Canvas
+http://www.sitepoint.com/basic-animation-with-canvas-and-javascript/
